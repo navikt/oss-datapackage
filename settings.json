@@ -1,0 +1,17 @@
+{
+    "db_connection_strings": {
+        "forskudd": "${PG_FORSKUDD}",
+        "permittering-refusjon": "${PG_PERMITTERING_REFUSJON}",
+        "koronapenger-spenn": "${PG_KORONAPENGER_SPENN}"
+    },
+    "db_vault_path": {
+        "forskudd": "postgresql/prod-fss/creds/dp-saksbehandling-user",
+        "permittering-refusjon": "postgresql/prod-fss/creds/permittering-refusjon-user",
+        "koronapenger-spenn": "postgresql/prod-fss/creds/koronapenger-spenn-user"
+    },
+    "index_connections": {
+        "elastic_host": "https://dv-resource-rw-api.nais.adeo.no/index/write/dcat",
+        "token": "",
+        "index": "dcat"
+    }
+}
