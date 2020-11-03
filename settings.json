@@ -1,7 +1,5 @@
 {
     "index_connections": {
-        "elastic_host": "${ES_HOST}",
-        "token": "",
-        "index": "dcat"
+        "elastic_host": "${ES_HOST}"
     }
 }
