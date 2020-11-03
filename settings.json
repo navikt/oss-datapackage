@@ -1,6 +1,6 @@
 {
     "index_connections": {
-        "elastic_host": "https://dv-resource-rw-api.nais.adeo.no/index/write/dcat",
+        "elastic_host": "${ES_HOST}",
         "token": "",
         "index": "dcat"
     }
